@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #333;
+    font-family: "Roboto Mono",sans-serif;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    overflow: hidden;
+}
+ header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+header .logo
+{
+    max-width: 80px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30;
+    margin-left: 0px;
+}
+
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header li
+{
+    list-style: none;
+   
+}
+header ul li a
+{
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20;
+   
+} 
+header ul li a:hover
+{
+    color: #30ffa9;
+}
+.content p
+{
+    margin-top: 180px;
+    color:#fff;
+    font-size:80;
+}
+.content .child
+{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.btncontact
+{
+    width: 219px;
+    height: 73px;
+    background-color:#30ffa9;
+    border:0;
+    font-size: 23;
+    font-weight: bold;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.btncontact:hover
+{
+    background-color: cornsilk;
+}
+.sociallinks
+{
+    position: relative;
+    display: flex;
+    justify-content:space-between ;
+   
+}
+.sociallinks ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding-top: 150px;
+}
+
+.sociallinks ul li a{
+    color:#30ffa9;
+    padding-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 5px;
+    
+}
+.sociallinks ul li a:hover
+{
+    color:#fff;
+
+}
+#about
+{
+    padding-left: 20px;
+    color:#fff;
+    padding-top: 200px;
+    font-size:25;
+}
+.line
+{
+    border-style: solid;
+    border-color: #33FFA9;
+    border-width: 3px;
+    margin-left: 510px;
+    margin-top:0px ;
+}
+.paragraph
+{
+    
+    color:#30ffa9;
+    padding-left: 20px;
+    font-size: 26px;
+    padding-top: 50px;
+    float:left;
+}
+.aboutpara p{
+    color:#30ffa9;
+    margin-left: 190px;
+}
+.aboutpara
+{
+    color:#30ffa9;
+    float:left;
+    font-size: 26px;
+    padding-top: 50px;
+   
+}
+.profileimg .profile
+{
+    border-radius: 50%;
+    padding-top: 50px;
+    width:100%;
+    height:600px;
+}
+.aboutpara ul li
+{
+    padding-top: 40px;
+    margin-left: 240px;
+    list-style: circle;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+    
+}
+.aboutpara ul li a{
+    text-decoration: none;
+    color: white;
+}
+.aboutpara ul li a:hover{
+    color: #30ffa9;
+}
+.linkedin .btnlinkedin
+{
+    width: 214px;
+    height: 39px;
+    background-color: #fff;
+    margin-top: 130px;
+    margin-left: 410px;
+    border:0;
+    font-weight: bold;
+    font-size: 17;
+    cursor: pointer;
+}
+.linkedin .btnlinkedin:hover
+{
+    background-color: #30ffa9;
+}
+.recentworks
+{
+    color: #fff;
+    padding-top: 180px;
+    margin-left: 20px;
+    font-size: 25;
+   
+}
+.recentworks .paraline
+{ 
+    border-style: solid;
+    border-color: #33FFA9;
+    border-width: 3px;
+    margin-left: 510px;
+}
+.recentworkscontent
+{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: #fff;
+    cursor: pointer;  
+    font-size: 35;
+    
+}
+.recentworkscontent .work1  a
+{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.recentworkscontent .work2  a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.recentworkscontent .work3  a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.recentworkscontent .work4  a
+{   
+    color: #fff;
+    text-decoration: none;
+}
+.recentworkscontent a:hover
+{
+color:#30ffa9;
+}
+.recentworkscontent .work1 
+{
+    float:left;
+
+}
+.recentworkscontent .work2
+{
+    float:left;
+    padding-left: 110px;
+}
+.recentworkscontent .work3
+{
+    float:left;
+    padding-left: 110px;
+  
+}
+.recentworkscontent .work4
+{
+    float:left;
+    padding-left: 110px;
+}
+.allprojects
+{
+   margin-left: 600px;
+}
+.btnallprojects
+{
+    background-color: #30ffa9;
+    width: 270px;
+    height: 70px;
+    border:0;
+    margin-top: 150px;
+    font-size: 17;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btnallprojects:hover{
+    background-color: cornsilk;
+}
+.placesofwork
+{
+    color:#fff;
+    margin-left: 20px;
+   font-size: 25;
+}
+.worksline
+{
+padding-top: 0px;
+border-style: solid;
+border-color: #33FFA9;
+border-width: 3px;
+margin-left: 510px;
+
+}
+.placesofwork h1
+{
+    margin-top: 90px;
+}
+.placeofworkcontent
+{
+    margin-top: 50px;
+    color:#fff;
+    float:left;
+    margin-left: 530px;
+    font-size: 20px;
+    
+}
+.placeofworkcontent a{
+    text-decoration: none;
+    color: #fff;
+}
+.placeofworkcontent a:hover
+{
+    color: #30ffa9;
+}
+.placeofworkcontent p
+{
+    padding-top: 15px;
+    color:gray;
+   
+}
+.position
+{
+    color:#fff;
+    float: right;
+    font-size: 20px;
+    margin-top: 50px;
+   
+}
+.position 
+{
+    margin-right: 50px;
+}
+
+
+header ul li ul.dropdown {
+    width: 55%; /* Set width of the dropdown */
+    background-color: #30ffa9;
+    display: none;
+    position: absolute;
+    cursor: pointer;
+  
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+   
+}
+header ul li:hover ul.dropdown {
+    display: block;
+     /* Display the dropdown */
+}
+header ul li ul.dropdown li a{
+    display: block;
+    background-color: #30ffa9;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color:black;
+
+}
+footer {
+    margin-top: 200px;
+    padding-top: 150px;
+    color: black;
+    background-color: #30ffa9;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer p{
+      margin-left: 20px;
+    font-size: 50;
+    background-color: #30ffa9;
+  }
+ .footerlinks
+ {
+     margin-top: 80px;
+     margin-right: 900px;
+   
+ }
+ .footerlinks ul li
+ {
+     list-style: none;
+     
+ }
+ .footerlinks ul{
+    display: flex;
+    background-color: #30ffa9;
+   
+ }
+ .footerlinks ul li a{
+    display: inline-block;
+     text-decoration: none;
+    padding-left: 20px;
+    background-color: #30ffa9;
+
+ }
+footer .blank
+{
+    height: 40%;
+    background-color: #30ffa9;
+    padding-top: 180px;
+    text-align: center;
+}
+header img
+{
+    width:190%;
+}
